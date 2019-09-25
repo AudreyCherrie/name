@@ -20,4 +20,4 @@ Javascript - Largely used for the interaction of the page with the user.
 incase you are not able to view certain applications or parts of the website feel free to submit an email to mitchelaudrey@gmail.com
 ### License
 MIT
-Copyright (c)2019 **Audrey Mitchel Macharia**ame
+Copyright (c)2019 **Audrey Mitchel Macharia**
