@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel = "stylesheet" href ="styles.css">
+   <script src="script.js"></script>
+   <title> The Akhan-Name-System</title>
+</head>
+<body>
+   <div class="container">
+       <div class="jumbotron">
+           <!-- <div id="overlay"> -->
+           <div id="center">
+               <h1>Akhan-Name-System</h1>
+               <p>"The Akhan-Name-System is a system derived from the Ghanian cultre
+                   in that a child is named according to the day he or she was born in.
+                   The system automatically declares the Akhan name once the user submits
+                   their birthday date and gender."</p>
+           </div>
+       </div>
+   </div>
+   <div id="center">
+       <div id="overlay"></div>
+       <h3>Want your Akhan name?</h3>
+       <p>Then fill in the form below to get one Asap!!</p>
+   
+          <h3>Enter date of birth</h3>
+           <input type = "text" id = "dob" name ="dob" value=""><br>
+           <h2>Gender</h2>
+           <input type = radio name ="gender" id = "male" value = "male">Male
+       </br>
+           <input type = radio name ="gender" id = "female" value = "female">Female
+       </br>
+           <button onclick="gen_Name()">Get Name</button>
+       </div>
+   </div>
+</div>
+</body>
+</html>
